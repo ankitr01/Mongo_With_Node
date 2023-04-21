@@ -21,15 +21,6 @@ async function getdata() {
       .then((response) => {
         console.log(response);
       });
-    // .then((collection) => {
-    //   collection
-    //     .find({})
-    //     .toArray()
-    //     .then((response) => {
-    //       console.log(response);
-    //     });
-    // });
-    // let response = console.log(collection.find({}).toArray());
   } catch (error) {
     console.log("error", error);
   }
