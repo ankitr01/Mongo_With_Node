@@ -15,11 +15,15 @@ async function getdata() {
     let db = result.db(database);
     console.log("getting db", db);
     const collection = db.collection(yourcollection);
+
     collection
-      .find({ storeLocation: "Seattle" })
+      .find({ "customer.email": "abc" })
       .toArray()
       .then((response) => {
         console.log(response);
+        if (response == 0) {
+          console.log("No data found");
+        }
       });
   } catch (error) {
     console.log("error", error);
