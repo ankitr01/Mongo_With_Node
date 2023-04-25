@@ -1,3 +1,8 @@
+Prerequisite:
+Node js
+Vs code
+Mongo DB
+
 Steps to follow:
 
 # Connect your Mongodb with Nodejs
@@ -8,5 +13,6 @@ Steps to follow:
 4. Open the VS code.
 5. Install Node Js.
 6. Require the MongoClient.
-7. Change the DB and collection name in the newquery.js
-8. Now find the required data.
+7. Run "npm install" for installing all the required packages
+8. Change the DB and collection name in the newquery.js
+9. Now find the required data.
