@@ -1,7 +1,8 @@
 Prerequisite:
-Node js
-Vs code
-Mongo DB
+
+1. Node js
+2. Vs code
+3. Mongo DB
 
 Steps to follow:
 
