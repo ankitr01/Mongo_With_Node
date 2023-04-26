@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 
-const database = "mydatabse";
+const database = "mydatabase";
 const yourcollection = "salesnew";
 
 const password = encodeURIComponent("tIs8ERybcn7lwoOu");
@@ -15,6 +15,7 @@ async function dbConnect() {
     let db = result.db(database);
     console.log("getting db", db);
     const collection = db.collection(yourcollection);
+    return collection;
   } catch (error) {
     console.log("error", error);
   }
