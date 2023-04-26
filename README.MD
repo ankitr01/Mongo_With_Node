@@ -15,5 +15,5 @@ Steps to follow:
 5. Install Node Js.
 6. Require the MongoClient.
 7. Run "npm install" for installing all the required packages
-8. Change the DB and collection name in the newquery.js
-9. Now find the required data.
+8. Change the DB and collection name in the Connect.js
+9. Now perform the CRUD operations callCrud.js
