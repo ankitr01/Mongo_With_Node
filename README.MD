@@ -16,4 +16,4 @@ Steps to follow:
 6. Require the MongoClient.
 7. Run "npm install" for installing all the required packages
 8. Change the DB and collection name in the Connect.js
-9. Now perform the CRUD operations callCrud.js
+9. Now perform the CRUD operations through callCrud.js
