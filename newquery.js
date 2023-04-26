@@ -17,7 +17,7 @@ async function getdata() {
     const collection = db.collection(yourcollection);
 
     collection
-      .find({ "customer.email": "abc" })
+      .find({ "items.3.tags.2": "school" })
       .toArray()
       .then((response) => {
         console.log(response);
