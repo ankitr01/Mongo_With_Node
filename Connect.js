@@ -11,9 +11,9 @@ async function dbConnect() {
   try {
     console.log("entering");
     let result = await client.connect();
-    console.log("result");
+    //console.log("result");
     let db = result.db(database);
-    console.log("getting db", db);
+    //console.log("getting db", db);
     const collection = db.collection(yourcollection);
     return collection;
   } catch (error) {
